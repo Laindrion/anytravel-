@@ -5497,6 +5497,12 @@ aside .booking-form .form-group .booking-confirm {
 
 
 /* MY CODE */
+
+.header-bottom-area>.container>.row {
+     display: flex;
+     align-items: center;
+}
+
 .owl-carousel .owl-item img {
      /*  aspect-ratio: 2/1; */
 }
