@@ -1450,7 +1450,7 @@ header {
      height: 100%;
 }
 
-.incredible-places .single-place figure img{
+.incredible-places .single-place figure img {
      height: 100%;
      object-fit: cover;
 }
@@ -5568,6 +5568,11 @@ header.section__header {
 }
 
 /* section popular package */
+
+.popular-packages.pb-70 {
+     padding-bottom: 0;
+}
+
 .popular-packages .col-md-4:nth-child(2) {
      transition-delay: 100ms;
 }
@@ -5669,6 +5674,15 @@ header.section__header {
      display: flex;
      justify-content: space-between;
 }
+
+.footer-area .single-footer:first-child {
+     padding-bottom: 0;
+}
+
+.footer-area .single-footer:last-child {
+     padding-top: 30px;
+}
+
 
 .footer-contact a {
      color: #fff;
